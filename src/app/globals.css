@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply py-2 px-8  font-thin rounded-md text-sm flex justify-center items-center cursor-pointer;
+  }
+
+  .btn-primary {
+    @apply bg-primary text-onPrimary;
+  }
+  .btn-error {
+    @apply bg-error text-onError;
+  }
+
+  .btn-text {
+    @apply text-onBackground;
+  }
+  .input {
+    @apply py-2 border-b outline-none bg-transparent tracking-wider text-onBackground;
+  }
+
+  .select {
+    @apply input appearance-none  rounded-none;
+  }
+  .table {
+    @apply border-dashed border rounded-lg border-border;
+  }
+}
+
+body {
+  background-image: url("/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}

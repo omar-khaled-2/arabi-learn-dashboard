@@ -1,0 +1,1 @@
+export const questionTypes = ["writing", "mcq", "dots", "checkbox", "font tracing"];
