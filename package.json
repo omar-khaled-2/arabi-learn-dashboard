@@ -11,8 +11,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "superuser": "node create_super_user.js"
+    "lint": "next lint"
   },
   "dependencies": {
     "@aws-sdk/client-polly": "^3.552.0",

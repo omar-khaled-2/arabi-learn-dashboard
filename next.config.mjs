@@ -2,7 +2,9 @@
 const nextConfig = {
   experimental: {
     serverComponentsExternalPackages: ["mongoose"],
+  
   },
+  
   images: {
     remotePatterns: [
       {
@@ -13,8 +15,8 @@ const nextConfig = {
       }
     ]
   },
-  output: 'standalone',
-  compress: false,
+
+
   redirects() {
     return [
       {
