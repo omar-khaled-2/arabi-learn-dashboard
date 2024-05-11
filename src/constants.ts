@@ -5,6 +5,8 @@ import { loadEnvConfig } from '@next/env'
 const projectDir = process.cwd()
 loadEnvConfig(projectDir)
 
+console.log(process.env)
+
 export const MONGODB_URL = process.env.MONGODB_URL!
 export const BUCKET_NAME = process.env.BUCKET_NAME!;
 export const IS_DEV = process.env.NODE_ENV === "development";
